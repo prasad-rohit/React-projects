@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+body{
+  box-sizing: border-box;
+  max-height: 100vh;
+  background: rgba(4, 204, 204, 0.692);
+  margin: 0;
+  font-family: 'Major Mono Display', monospace;
+  color: rgb(13, 56, 70);
+}
+
+.App{
+  text-align: center;
+  /* Basic CSS to center anything in the body */
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+button{
+  margin-left: 1em;
+  padding: .5em 1em .5em 1em;
+  border-radius: 5px;
+  background: rgb(230, 214, 171);
+  color: rgba(0, 0, 0, 0.657);
+  margin-top: 3em;
+  border: none;
+}
+
+button:hover{
+  transition: all .3s ease-in-out;
+  transform: scale(1.2,1.2);
+}
+
+.timer{
+  font-size: 10rem;
+}
